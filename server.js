@@ -21,7 +21,7 @@ app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/js', express.static(path.join(__dirname, 'js')));
 
 // MongoDB connection
-mongoose.connect("mongodb://127.0.0.1:27017/scroll_db"
+mongoose.connect("mongodb+srv://sid071518:sidmsdvk@traveltales.xv3eedk.mongodb.net/?retryWrites=true&w=majority&appName=TravelTales"
  , {
     useNewUrlParser: true,
     useUnifiedTopology: true
